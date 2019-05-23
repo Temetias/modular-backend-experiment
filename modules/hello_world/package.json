@@ -1,0 +1,17 @@
+{
+	"name": "hello_world",
+	"version": "1.0.0",
+	"description": "Hello world module for modulist",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"tsc": "tsc",
+		"dev": "ts-node-dev --respawn --transpileOnly ./src/main.ts",
+		"prod": "tsc && node ./build/main.js"
+	},
+	"author": "Teemu Karppinen",
+	"license": "MIT",
+	"dependencies": {
+		"typescript": "^3.4.5"
+	}
+}
